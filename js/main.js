@@ -95,7 +95,7 @@ function renta(){
     let a=parseInt(prompt("Ingrese el capital a invertir"));
     let b=parseInt(prompt("Ingrese la cantindad de tiempo en años"));
     const c=0.017;
-    alert("Los intereses rentados durante los "+b+" años fueron: "+(a*b*c*12).toFixed(2)+"\nEl valor total a pagar es: "+(a*(1+a*b*c*12)).toFixed(2));
+    alert("Los intereses rentados durante los "+b+" años fueron: "+(a*b*c*12).toFixed(2)+"\nEl valor total a pagar es: "+(a*(1+b*c*12)).toFixed(2));
 }
 
 function notas(){
