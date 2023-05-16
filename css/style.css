@@ -24,3 +24,8 @@ button:hover{
     border: 1px solid #2396bd;
     border-radius: 0;
 }
+
+img{
+    border-radius: 50%;
+    height: 100px;
+}
