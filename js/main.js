@@ -157,7 +157,7 @@ function salario(){
         alert("El total devengado es: "+total)
     }
     else if(a>40){
-        let total=40*10000+20000(40-a);
+        let total=40*10000+20000(a-40);
         alert("El total devengado es: "+total)
     }
     else{
