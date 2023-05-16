@@ -105,11 +105,11 @@ function notas(){
     for (var i = 1; i <= 7; i++) {
         var valida=true;
         while(valida){
-            var c=parseFloat(prompt("Ingrese la nota "+i));
-            // if(prompt("Ingrese la nota "+i)==null){
-            //     valida=false;
-            //     //break;
-            // }
+            var lee=prompt("Ingrese la nota "+i);
+            var c=parseFloat(lee);
+            if(lee==undefined){
+                valida=false;
+            }
             if(c>=0 && c<=10){
                 suma=suma+c;
                 valida=false;
